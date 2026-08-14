@@ -1,16 +1,4 @@
-// stylelint-disable declaration-no-important
-@include govuk-exports("govuk/overrides/text-align") {
-  .govuk-\!-text-align-left {
-    text-align: left !important;
-  }
+@use "text-align.mixin" as text-align;
 
-  .govuk-\!-text-align-centre {
-    text-align: center !important;
-  }
+@include text-align.styles;
 
-  .govuk-\!-text-align-right {
-    text-align: right !important;
-  }
-}
-
-/*# sourceMappingURL=_text-align.scss.map */

@@ -1,20 +1,7 @@
-@import "links";
-@import "typography";
+@use "../custom-properties";
+@use "links";
+@use "typography";
+@use "global-styles.mixin" as mixin;
 
-@mixin govuk-global-styles {
-  a {
-    @extend %govuk-link;
-  }
+@include mixin.styles;
 
-  p {
-    @extend %govuk-body-m;
-  }
-}
-
-@include govuk-exports("govuk/core/global-styles") {
-  @if $govuk-global-styles == true {
-    @include govuk-global-styles;
-  }
-}
-
-/*# sourceMappingURL=_global-styles.scss.map */

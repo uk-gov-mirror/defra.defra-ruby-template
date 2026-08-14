@@ -1,28 +1,10 @@
-@import "../error-message/index";
-@import "../input/index";
-@import "../hint/index";
-@import "../label/index";
-@import "../fieldset/index";
+@use "../../custom-properties";
+@use "mixin";
+@use "../error-message";
+@use "../input";
+@use "../hint";
+@use "../label";
+@use "../fieldset";
 
-@include govuk-exports("govuk/component/date-input") {
-  .govuk-date-input {
-    @include govuk-clearfix;
-    font-size: 0; // removes whitespace caused by inline-block
-  }
+@include mixin.styles;
 
-  .govuk-date-input__item {
-    display: inline-block;
-    margin-right: govuk-spacing(4);
-    margin-bottom: 0;
-  }
-
-  .govuk-date-input__label {
-    display: block;
-  }
-
-  .govuk-date-input__input {
-    margin-bottom: 0;
-  }
-}
-
-/*# sourceMappingURL=_index.scss.map */

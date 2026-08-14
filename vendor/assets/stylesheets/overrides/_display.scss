@@ -1,26 +1,4 @@
-// stylelint-disable declaration-no-important
-@include govuk-exports("govuk/overrides/display") {
-  .govuk-\!-display-inline {
-    display: inline !important;
-  }
+@use "display.mixin" as display;
 
-  .govuk-\!-display-inline-block {
-    display: inline-block !important;
-  }
+@include display.styles;
 
-  .govuk-\!-display-block {
-    display: block !important;
-  }
-
-  .govuk-\!-display-none {
-    display: none !important;
-  }
-
-  @include govuk-media-query($media-type: print) {
-    .govuk-\!-display-none-print {
-      display: none !important;
-    }
-  }
-}
-
-/*# sourceMappingURL=_display.scss.map */

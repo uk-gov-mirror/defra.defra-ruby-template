@@ -1,3 +1,13 @@
 inherit_gem:
   defra_ruby_style:
     - default.yml
+
+# Setting rubygems_mfa_required stops anyone without MFA on their RubyGems
+# account from pushing the gem. That is a release-process decision for the team
+# rather than a code one, so it is left off until they make it.
+Gemspec/RequireMFA:
+  Enabled: false
+
+# The only spec covers the Rakefile, which is not a class.
+RSpec/DescribeClass:
+  Enabled: false

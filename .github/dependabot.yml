@@ -6,9 +6,17 @@ updates:
       interval: daily
     open-pull-requests-limit: 10
     versioning-strategy: lockfile-only
+  # govuk-frontend's assets are vendored into vendor/assets by `rake`, and the
+  # gem's version mirrors govuk-frontend's, so no npm bump can land on its own -
+  # someone has to re-run `rake` and re-release. A lockfile-only bump hides that
+  # work: it leaves package.json, the lockfile and the vendored copy claiming
+  # three different versions, which is how the gem ended up shipping 5.10.2
+  # assets against a 5.14.0 lockfile. "increase" raises the requirement in
+  # package.json on every bump, in range or not, so the PR shows the version
+  # change that the vendoring has to follow.
   - package-ecosystem: npm
     directory: "/"
     schedule:
       interval: daily
     open-pull-requests-limit: 10
-    versioning-strategy: lockfile-only
+    versioning-strategy: increase

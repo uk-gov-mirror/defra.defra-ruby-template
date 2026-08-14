@@ -17,13 +17,10 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.files = Dir["{app,bin,config,lib,node_modules,vendor}/**/*", "LICENSE", "Rakefile", "README.md"]
-  spec.test_files = Dir["spec/**/*"]
 
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-
-  spec.add_development_dependency "defra_ruby_style"
 end
 
 # rubocop:enable Gemspec/RequiredRubyVersion

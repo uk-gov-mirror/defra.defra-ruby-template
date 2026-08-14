@@ -1,11 +1,4 @@
-@include govuk-exports("govuk/utilities/visually-hidden") {
-  .govuk-visually-hidden {
-    @include govuk-visually-hidden;
-  }
+@use "visually-hidden.mixin" as visually-hidden;
 
-  .govuk-visually-hidden-focusable {
-    @include govuk-visually-hidden-focusable;
-  }
-}
+@include visually-hidden.styles;
 
-/*# sourceMappingURL=_visually-hidden.scss.map */

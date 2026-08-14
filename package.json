@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "npx node-sass ./vendor/assets/stylesheets/govuk-frontend-rails.scss /tmp/govuk-frontend-rails.css"
+    "test": "npx --yes sass --load-path=vendor/assets/stylesheets vendor/assets/stylesheets/defra_ruby_template.scss /tmp/defra_ruby_template.css"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/DEFRA/defra-ruby-template#readme",
   "dependencies": {
-    "govuk-frontend": "^5.10.2"
+    "govuk-frontend": "^6.4.0"
   }
 }

@@ -8,8 +8,8 @@
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
-            "screenshot": false,
+            "pageTemplateOptions": {},
+            "screenshot": true,
             "html": "<strong class=\"govuk-tag\">\n  Alpha\n</strong>"
         },
         {
@@ -20,45 +20,21 @@
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag govuk-tag--grey\">\n  Grey\n</strong>"
         },
         {
-            "name": "blue",
-            "options": {
-                "text": "Blue",
-                "classes": "govuk-tag--blue"
-            },
-            "hidden": false,
-            "description": "",
-            "previewLayoutModifiers": [],
-            "screenshot": false,
-            "html": "<strong class=\"govuk-tag govuk-tag--blue\">\n  Blue\n</strong>"
-        },
-        {
-            "name": "light blue",
-            "options": {
-                "text": "Light blue",
-                "classes": "govuk-tag--light-blue"
-            },
-            "hidden": false,
-            "description": "",
-            "previewLayoutModifiers": [],
-            "screenshot": false,
-            "html": "<strong class=\"govuk-tag govuk-tag--light-blue\">\n  Light blue\n</strong>"
-        },
-        {
             "name": "turquoise",
             "options": {
-                "text": "Turquoise",
-                "classes": "govuk-tag--turquoise"
+                "text": "Teal",
+                "classes": "govuk-tag--teal"
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
-            "html": "<strong class=\"govuk-tag govuk-tag--turquoise\">\n  Turquoise\n</strong>"
+            "html": "<strong class=\"govuk-tag govuk-tag--teal\">\n  Teal\n</strong>"
         },
         {
             "name": "green",
@@ -68,7 +44,7 @@
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag govuk-tag--green\">\n  Green\n</strong>"
         },
@@ -80,21 +56,21 @@
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag govuk-tag--purple\">\n  Purple\n</strong>"
         },
         {
             "name": "pink",
             "options": {
-                "text": "Pink",
-                "classes": "govuk-tag--pink"
+                "text": "Magenta",
+                "classes": "govuk-tag--magenta"
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
-            "html": "<strong class=\"govuk-tag govuk-tag--pink\">\n  Pink\n</strong>"
+            "html": "<strong class=\"govuk-tag govuk-tag--magenta\">\n  Magenta\n</strong>"
         },
         {
             "name": "red",
@@ -104,7 +80,7 @@
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag govuk-tag--red\">\n  Red\n</strong>"
         },
@@ -116,7 +92,7 @@
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag govuk-tag--orange\">\n  Orange\n</strong>"
         },
@@ -128,7 +104,7 @@
             },
             "hidden": false,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag govuk-tag--yellow\">\n  Yellow\n</strong>"
         },
@@ -143,7 +119,7 @@
             },
             "hidden": true,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag\" data-test=\"attribute\" id=\"my-tag\">\n  Tag with attributes\n</strong>"
         },
@@ -154,7 +130,7 @@
             },
             "hidden": true,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag\">\n  &lt;span&gt;Alpha&lt;/span&gt;\n</strong>"
         },
@@ -165,7 +141,7 @@
             },
             "hidden": true,
             "description": "",
-            "previewLayoutModifiers": [],
+            "pageTemplateOptions": {},
             "screenshot": false,
             "html": "<strong class=\"govuk-tag\">\n  <span>Alpha</span>\n</strong>"
         }
